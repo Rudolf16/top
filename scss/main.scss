@@ -5,10 +5,4 @@
 @import "components/form";
 @import "./layout/header";
 @import './layout/title_section';
-
-html{
-    box-sizing: border-box;
-}
-*,*::before,*::after{
-    box-sizing: inherit;
-}
+@import "layout/places_section";
