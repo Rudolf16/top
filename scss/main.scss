@@ -3,20 +3,6 @@
 @import "components/button";
 @import "components/dropdown";
 @import "components/form";
-@import "layout/header.scss";
+@import "layout/header";
+@import 'layout/title_section';
 @import "layout/places_section";
-@import "layout/title_section";
-
-.header{
-    position: fixed;
-    width: 100%;
-    padding: 48px;
-    background-color: black;
-    z-index: 1;
-}
-html{
-    box-sizing: border-box;
-}
-*,*::before,*::after{
-    box-sizing: inherit;
-}
